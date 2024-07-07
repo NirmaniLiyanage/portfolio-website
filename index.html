@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>portfolio/Nirmani</title>
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="bootstrapabout.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -14,8 +14,9 @@
 </head>
 
 <body>
+    <!-- nav bar start-->
     <div class="container-fluid">
-        <nav class="nav" id="home">
+        <nav class="nav" >
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul class="nav-links d-flex justify-content-center w-100 d-none d-md-flex">
@@ -32,27 +33,25 @@
             <div id="side-panel" class="side-panel">
                 <div id="close-btn" class="close-btn">×</div>
                 <ul class="side-panel-links">
-                    <li class="name">Nirmani</li>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#project">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </div>
+    <!-- nav bar end-->
 <div class="main">
     <div class="container">
-
-        
-        <div class="row">
-        
-            <div class="col-md-7 welcome-heading">
-                <div class="mt-custom"></div>
-                <h1 class="animate-slide-down" ><span>I'm <br/> Nirmani Liyange</span></h1>
-                <h4 class="animate-slide-down"><span>Web Developer / Software developer</span> </h4>
+        <!-- introduction start-->
+        <div class="row" id="home">
+            <div class="col-md-7 welcome-heading" >
+                <div class="mt-custom" ></div>
+                <h1 class="animate-slide-down"  ><span>I'm <br/> Nirmani Liyange</span></h1>
+                <h4 class="animate-slide-down"><span>Web Developer / Software developer / UI/UX Designer</span> </h4>
                 <div class="icon-container">
                     <a href="https://github.com/NirmaniLiyanage" target="_blank">
                         <i class="fa-brands fa-github"></i>
@@ -66,14 +65,20 @@
             </div>
          
             <div class="col-md-5 d-flex justify-content-center align-items-center">
-                <img class="my-image" src="image1.jpg" alt="My Photo" height="350px" width="270px" />
+                <img class="my-image" src="img/image.jpg" alt="My Photo" height="320px" width="270px" />
             </div>
         </div>
-        
+        <!-- introduction end -->
 
+        <!-- about start -->
         <div class="mt-custom" >
-        <div class="row" >
-            <div class="about" id="about">
+        <div class="row" id="about">
+
+            <div class="col-md-5 d-flex justify-content-center align-items-center" id="trigger-section">
+                <img class="my-image1" src="img/myimg2.jpg" alt="My Photo" height="350px" width="270px" />
+            </div>
+
+            <div class="col-md-6 about " >
             <h2 id="about">About <span> Me </span></h2>
             <p>I am an undergraduate student pursuing a Bachelor of Information and Communication Technology (BICT) Hons with a focus on software system engineering. I have a strong background in programming and web development, with skills in HTML, CSS, JavaScript, Bootstrap, Python, Java, and Django.
 
@@ -85,14 +90,16 @@
             <p>Bachelor of Information and Communication Technology (BICT) Hons<br/>
             University of Kelaniya</p>
             <p> Email : nirmaniliyanage26@gmail.com</p>
+            </div>
         </div>
         </div>
-        </div>
+        <!-- about end -->
 
-        <div class="row">
+        <!-- skills start -->
+        <div class="row" id="skills">
             <div class="col-mb-12">
                 <div class="col-md-12">
-                    <h1 class="sub-title1" id="skills">
+                    <h1 class="sub-title1" >
                         My <span>Skills</span>
                     </h1>
                     <section>
@@ -149,12 +156,11 @@
                     </section>
                 </div>
             </div>
-
-
         </div>
+        <!-- skills end -->
 
-
-       <div class="service-wrapper" id="services">
+       <!-- service start -->
+        <div class="service-wrapper1" id="services">
             <div class="service">
                 <h1 class="service-section">My Services<span></span></h1>
                 <div class="row">
@@ -188,20 +194,18 @@
                             <p>Creating Robust Backend Solutions to Power Innovative Applications</p>
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>
+        <!-- service end -->
 
-
-        
-        <div class="service-wrapper">
+        <!-- project start -->
+        <div class="project-wrapper" id="project">
             <div class="service">
-                <h1 class="sub-title" id="project">My Projects<span></span></h1>
-                <div class="cards"> <!-- Changed class from "row" to "cards" -->
+                <h1 class="sub-title" >My Projects<span></span></h1>
+                <div class="cards">
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div class="card h-100" style="width: 18rem;">
+                        <div class="card h-100" style="width: 18rem; background-color: rgb(122, 163, 165);">
                             <img src="img/pro1.png" class="card-img-top" alt="..." width="300" height="150">
                             <div class="card-body">
                                 <h5 class="card-title">System for University Medical Center - Group Project</h5>
@@ -210,9 +214,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Repeat the card structure for other cards -->
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div class="card h-100" style="width: 18rem;">
+                        <div class="card h-100" style="width: 18rem; background-color: rgb(122, 163, 165);">
                             <img src="img/pro2.jpeg" class="card-img-top" alt="..." width="300" height="150">
                             <div class="card-body">
                                 <h5 class="card-title">Library Management System - Group Project
@@ -224,7 +227,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div class="card h-100" style="width: 18rem;">
+                        <div class="card h-100" style="width: 18rem; background-color: rgb(122, 163, 165);">
                             <img src="img/pro3.jpeg" class="card-img-top" alt="..." width="300" height="150">
                             <div class="card-body">
                                 <h5 class="card-title">Internship finder Web Application - Group Project (Django)</h5>
@@ -236,7 +239,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div class="card h-100" style="width: 18rem;">
+                        <div class="card h-100" style="width: 18rem; background-color: rgb(122, 163, 165);">
                             <img src="img/pro4.jpeg" class="card-img-top" alt="..." width="300" height="150"> 
                             <div class="card-body">
                                 <h5 class="card-title">Member of Galahitiyawa United football club website project
@@ -250,7 +253,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div class="card h-100" style="width: 18rem;">
+                        <div class="card h-100" style="width: 18rem; background-color: rgb(122, 163, 165);">
                             <img src="img/pro5.jpeg" class="card-img-top" alt="..." width="300" height="150">
                             <div class="card-body">
                                 <h5 class="card-title">Text Editor - Individual project</h5>
@@ -260,7 +263,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                        <div class="card h-100" style="width: 18rem;">
+                        <div class="card h-100" style="width: 18rem; background-color: rgb(122, 163, 165);">
                             <img src="img/pro6.png" class="card-img-top" alt="..." width="300" height="150">
                             <div class="card-body">
                                 <h5 class="card-title">Todo List Android App - Individual Project
@@ -270,23 +273,37 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100" style="width: 18rem; background-color: rgb(122, 163, 165);">
+                            <img src="img/pro10.jpeg" class="card-img-top" alt="..." width="300" height="150">
+                            <div class="card-body">
+                                <h5 class="card-title">My Portfolio Website
+                                </h5>
+                                <p class="card-text">A responsive portfolio website showcasing my web development skills, built with HTML, CSS, JavaScript, and Bootstrap.</p>
+                                <a href="https://github.com/NirmaniLiyanage/portfolio-website" class="btn btn-primary">View Code</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- project end -->
 
-
-    <div class="row">
-        <form action="#">
-            <h3 id="contact">Get In Touch</h3>
-            <input type="text" id="name" placeholder="Your Name" class="item"  required>
-            <input type="email" id="email" placeholder="Your Email Address" class="item"  required>
-            <input type="text" id="subject" placeholder="Subject" class="item"  required>
-            <input type="text" id="phone" placeholder="Phone Number" class="item"  required>
-            <textarea id="message" rows="4" placeholder="Your message" class="item" ></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </div>
-
+        <!-- email start-->
+        <div class="row">
+            <div class="contact"></div>
+            <form action="#">
+                <h3 class="moving-text" id="contact">Contact Me</h3>
+                <input type="text" id="name" placeholder="Your Name" class="item"  required>
+                <input type="email" id="email" placeholder="Your Email Address" class="item"  required>
+                <input type="text" id="subject" placeholder="Subject" class="item"  required>
+                <input type="text" id="phone" placeholder="Phone Number" class="item"  required>
+                <textarea id="message" rows="4" placeholder="Your message" class="item" ></textarea>
+                <button type="submit">Send</button>
+            </form>
+            </div>
+        </div>
+        <!-- email end -->
 
 </div>
 
