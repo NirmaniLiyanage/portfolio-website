@@ -298,17 +298,17 @@ h2 {
     
     /* GitHub icon */
     .fa-github {
-    color: #1cbeda;
+    color: #fff;
     }
     
     /* LinkedIn icon */
     .fa-linkedin {
-    color: #1cbeda; 
+    color: #fff; 
     }
     
    
     .fa-brands:hover {
-    color: #fff; 
+    color: #5582d0; 
     transform: scale(1.1);
     }
     
@@ -858,4 +858,41 @@ h2 {
         }
         }
         
-        
+    /* footer start */
+    footer {
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .footer-contact, .footer-social, .footer-nav,  .footer-back-to-top, .footer-copyright {
+        margin-bottom: 20px;
+    }
+    
+    .footer-social i {
+        color: #fff;
+        margin: 0 10px;
+        font-size: 1.5rem;
+    }
+    
+    .footer-nav a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    
+    .footer-nav a:hover, .footer-social i:hover {
+        color: #5582d0;
+    }
+    
+    .footer-back-to-top a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    
+    .footer-back-to-top a:hover {
+        color: #5582d0;
+    }
+    
