@@ -275,7 +275,7 @@ h2 {
 
     .my-image{
     margin-top: 150px;
-    border-radius: 50px;
+    border-radius: 400px;
     box-shadow: 0 0 15px 5px rgb(137, 245, 249);
     transform: translateX(100%); 
     animation: imganim 2s forwards;
